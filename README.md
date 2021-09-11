@@ -51,3 +51,14 @@ Lint를 사용해서 코드의 통일성을 지켜줍니다
     </Stack.Navigator>
 ```
 - 각각 props로 네비게이션에 설정값을 적용할 수 있습니다 
+
+### Dark mode
+- 다크모드 설정 자동으로 파악 해 줍니다
+- app.json에 설정값 넣어주어야합니다
+```bash
+    expo install react-native-appearance
+```
+```javascript
+    const light = Appearance.getColorScheme() === "light";
+    <ThemeProvider></ThemeProvider>
+```
