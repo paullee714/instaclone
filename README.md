@@ -43,3 +43,4 @@ Lint를 사용해서 코드의 통일성을 지켜줍니다
     expo install react-native-gesture-handler
 ```
 - Navigation은 Stack/Tabs/Drawer가 있습니다
+- 참고 url [링크](https://reactnavigation.org/docs/stack-navigator/)
