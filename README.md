@@ -77,3 +77,11 @@ Lint를 사용해서 코드의 통일성을 지켜줍니다
 - react hook form은 웹, react native에서 둘다 사용 할 수 있습니다
 - useForm()이라는 훅으로 원하는 내용들을 가져 올 수 있습니다
 - react native에는 form이 없어 submit event를 사용 x -> react-hook-form을 사용하기
+
+
+### Apollo Client & graphql
+```bash
+yarn add @apollo/client graphql
+```
+- 개발할 때에는 localhost로 가능하지만, 실제로 핸드폰에서 사용 했을 경우에는 localhost서버가 더이상 존재하지 않습니다
+- 때문에 ngrok 혹은 local tunnel등을 사용하거나 apollo client를 사용해서 통신을 돕습니다
