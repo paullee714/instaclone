@@ -9,6 +9,7 @@ const LoginLink = styled.Text`
     color: ${colors.blue};
     font-weight: 500;
     margin-top: 13px;
+    text-align: center;
 `;
 
 // eslint-disable-next-line no-unused-vars

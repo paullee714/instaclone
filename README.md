@@ -67,3 +67,13 @@ Lint를 사용해서 코드의 통일성을 지켜줍니다
 - 이곳에는 공통으로 사용 할 수 있는 공통 컴포넌트들을 만들었어요
 - prop와 기타 여러 인자들을 사용해서 커스터마이징 할 수 있습니다
 - 동일한 레이아웃으로 제작되기 때문에 통일성을 줄 수 있습니다
+
+### React Hook Form
+```bash
+    npm install react-hook-form
+    or
+    yarn add react-hook-form
+```
+- react hook form은 웹, react native에서 둘다 사용 할 수 있습니다
+- useForm()이라는 훅으로 원하는 내용들을 가져 올 수 있습니다
+- react native에는 form이 없어 submit event를 사용 x -> react-hook-form을 사용하기
