@@ -18,6 +18,7 @@ module.exports = {
         "react",
     ],
     rules: {
+        "no-tabs": 0,
         "global-require": 0,
         "no-use-before-define": 0,
         "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
