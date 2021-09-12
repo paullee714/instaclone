@@ -4,8 +4,9 @@ import { Ionicons } from "@expo/vector-icons";
 import * as Font from "expo-font";
 import { Asset } from "expo-asset";
 import { NavigationContainer } from "@react-navigation/native";
-import { AppearanceProvider } from "react-native-appearance";
+import { ApolloProvider } from "@apollo/client";
 import LoggedOutNav from "./navigators/LoggedOutNav";
+import client from "./apollo";
 
 export default function App() {
     const [loading, setLoading] = useState(true);
@@ -30,10 +31,10 @@ export default function App() {
         );
     }
     return (
-        <AppearanceProvider>
+        <ApolloProvider client={client}>
             <NavigationContainer>
                 <LoggedOutNav />
             </NavigationContainer>
-        </AppearanceProvider>
+        </ApolloProvider>
     );
 }
