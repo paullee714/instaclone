@@ -4,12 +4,14 @@ import { Ionicons } from "@expo/vector-icons";
 import * as Font from "expo-font";
 import { Asset } from "expo-asset";
 import { NavigationContainer } from "@react-navigation/native";
-import { ApolloProvider } from "@apollo/client";
+import { ApolloProvider, useReactiveVar } from "@apollo/client";
 import LoggedOutNav from "./navigators/LoggedOutNav";
-import client from "./apollo";
+import client, { isLoggedInVar } from "./apollo";
+import LoggedInNav from "./navigators/LoggedInNav";
 
 export default function App() {
     const [loading, setLoading] = useState(true);
+    const isLoggedIn = useReactiveVar(isLoggedInVar);
     const onFinish = () => setLoading(false);
     const preload = () => {
         const fontsToLoad = [Ionicons.font];
@@ -30,10 +32,11 @@ export default function App() {
             />
         );
     }
+
     return (
         <ApolloProvider client={client}>
             <NavigationContainer>
-                <LoggedOutNav />
+                {isLoggedIn ? <LoggedInNav /> : <LoggedOutNav />}
             </NavigationContainer>
         </ApolloProvider>
     );
