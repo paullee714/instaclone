@@ -3,7 +3,7 @@
 
 datasource db {
   provider = "postgresql"
-  url      = "postgres://ebyftcweej:KYdBYhJUQ65CEe3SQcW8RWEDKW@localhost:5432"
+  url      = "postgres://wool:1234@localhost:5432"
 }
 
 generator client {
