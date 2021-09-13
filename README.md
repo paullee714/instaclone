@@ -91,3 +91,11 @@ yarn add @apollo/client graphql
 ```bash
     yarn add @react-navigation/bottom-tabs
 ```
+
+### Login 유지
+- 로그인 후에 어플리케이션을 재 시작 했을 경우 계속 로그인을 할 수 있도록 작업
+- [링크주소](https://reactnative.directory/?search=storage)
+```
+expo install @react-native-async-storage/async-storage
+```
+- tips -> npm과 expo의 차이는, 기준점이 node에 있느냐 expo에 있느냐의 차이입니다!
