@@ -4,13 +4,13 @@ import { Text, View } from "react-native";
 export default function Search() {
     return (
         <View style={{
-            backgroundColor: "black",
+            backgroundColor: "white",
             flex: 1,
             alignItems: "center",
             justifyContent: "center",
         }}
         >
-            <Text style={{ color: "white" }}>Hello Search</Text>
+            <Text style={{ color: "black" }}>Hello Search</Text>
         </View>
     );
 }

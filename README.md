@@ -81,7 +81,7 @@ Lint를 사용해서 코드의 통일성을 지켜줍니다
 
 ### Apollo Client & graphql
 ```bash
-yarn add @apollo/client graphql
+    yarn add @apollo/client graphql
 ```
 - 개발할 때에는 localhost로 가능하지만, 실제로 핸드폰에서 사용 했을 경우에는 localhost서버가 더이상 존재하지 않습니다 
 - 때문에 ngrok 혹은 local tunnel등을 사용하거나 apollo client를 사용해서 통신을 돕습니다
@@ -96,6 +96,13 @@ yarn add @apollo/client graphql
 - 로그인 후에 어플리케이션을 재 시작 했을 경우 계속 로그인을 할 수 있도록 작업
 - [링크주소](https://reactnative.directory/?search=storage)
 ```
-expo install @react-native-async-storage/async-storage
+    expo install @react-native-async-storage/async-storage
 ```
 - tips -> npm과 expo의 차이는, 기준점이 node에 있느냐 expo에 있느냐의 차이입니다!
+
+
+### Tab Navigator
+- 기존의 개발 옵션들이 변경되었습니다 [링크](https://reactnavigation.org/docs/upgrading-from-5.x/)
+```bash
+    yarn add @react-navigation/bottom-tabs
+```

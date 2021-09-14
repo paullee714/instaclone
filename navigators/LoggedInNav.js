@@ -10,14 +10,12 @@ export default function LoggedInNav() {
     return (
         <Tabs.Navigator
             screenOptions={{
-                headerBackTitleVisible: false,
-                headerTitle: "",
-                headerTransparent: true,
-                headerTintColor: "gray",
-            }}
-            tabBarOption={{
-                style: {
-                    backbroundColor: "black",
+                headerShown: false,
+                tabBarActiveTintColor: "black",
+                tabBarShowLabel: false,
+                tabBarStyle: {
+                    borderTopColor: "rgba(255, 255, 255, 0.3)",
+                    backgroundColor: "rgba(251, 250, 249, 1)",
                 },
             }}
         >
