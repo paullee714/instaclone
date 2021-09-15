@@ -3,6 +3,9 @@
 ## 인스타그램앱 클론 프로젝트
 - React Native 사용
 
+### 추후 TODO
+- [ ] Login Token Reset
+
 ### Lint
 ```bash
     npm install eslint
