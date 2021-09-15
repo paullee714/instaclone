@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View } from "react-native";
 
-export default function Feed() {
+export default function Search() {
     return (
         <View style={{
             backgroundColor: "white",
@@ -10,7 +10,7 @@ export default function Feed() {
             justifyContent: "center",
         }}
         >
-            <Text style={{ color: "black" }}>Hello Feed</Text>
+            <Text style={{ color: "black" }}>Hello Search</Text>
         </View>
     );
 }
