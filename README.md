@@ -5,6 +5,8 @@
 
 ### 추후 TODO
 - [ ] Login Token Reset
+- [ ] Profile -> Logout 기능
+- [ ] logo 바꾸기
 
 ### Lint
 ```bash
