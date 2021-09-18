@@ -22,7 +22,7 @@ export default function LoggedInNav() {
             }}
         >
             <Tabs.Screen
-                options={{ tabBarIcon: ({ color, size }) => (<Ionicons name="home" color={color} size={size} />) }}
+                options={{ tabBarIcon: ({ color, size }) => (<Ionicons name="ios-information" color={color} size={size} />) }}
                 name="Feed"
                 component={Feed}
             />
