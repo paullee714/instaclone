@@ -9,7 +9,6 @@
 - [ ] logo 바꾸기
 - [ ] reactnative 구조파악하기 
 - [ ] sms/mail 연동 고민하기
-- [x] 네비게이션 연동 고민하기 
 
 ### Lint
 ```bash
