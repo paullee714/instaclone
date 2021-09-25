@@ -7,7 +7,6 @@
 - [x] Login Token Reset
 - [ ] Profile -> Logout 기능
 - [ ] logo 바꾸기
-- [ ] reactnative 구조파악하기 
 - [ ] sms/mail 연동 고민하기
 
 ### Lint
